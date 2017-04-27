@@ -1,0 +1,11 @@
+{
+    "require": {
+        "orchestra/testbench": "^3.3",
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bench\\Tests\\": "tests/"
+        }
+    }
+}
